@@ -1,0 +1,117 @@
+/* Start Header Section */
+
+*{
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    background-color: brown;
+}
+.container-full{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+.container{
+    margin: 0 auto;
+    width: 600px;
+    padding: 0px;
+}
+.container::before,
+.container::after,
+.container-full:before,
+.container-full:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.mobile-logo{
+    background: url(../Img/cover.png);
+    width: 210px;
+    height: 66px;
+    text-align: center;
+}
+.col-40{
+    display: none;
+}
+.main-menu{
+    width: 100%;
+}
+.col-60 ul li{
+    float: right;
+    padding: 10px 2.5px;
+    list-style: none;
+
+}
+.col-60 header ul li a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 2s;
+    padding: 5px;
+    font-size: 15px;
+    color: aqua;
+}
+.col-60 ul li a:hover{
+    background-color: aqua;
+    color: red;
+    border-radius: 50px;
+    
+}
+/* Start body Section */
+
+.col-20{
+    width: 20%;
+    float: left;
+}
+.col-25{
+    float: left;
+    width: 24%;
+}
+.col-33{
+    float: left;
+    width: 33%;
+}
+.col-40{
+    float: left;
+    width: 39%;
+}
+.col-50{
+    width: 50%;
+    padding-top: 5px;
+    float: left;
+}
+.col-60{
+    float: left;
+    
+}
+.cel{
+    padding: 2.5px;
+}
+p{
+    font-size: 12.5px;
+}
+
+/* section 02 */
+.section2{
+    background-color: #303740;
+}
+.section2 .container{
+    background: url(../Img/img1.png);
+    border-image: 600px 300px;
+    height: 250px;
+    width: 500px;
+    padding: 75px;
+    
+}
+.section2 .container h1{
+    font-size: 25px;
+    color: #fff;
+    border-bottom: 5px solid red;
+    display: inline-block;
+
+}
+.section2 .container p{
+    font-size: 20px;
+    color: aqua;
+}
